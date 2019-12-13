@@ -10,5 +10,8 @@ This project analyzes which of the available features predict the cost of health
 - region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
 - charges: Individual medical costs billed by health insurance
 
+# We will use an "extra-trees regressor" in this project.
+- This class implements a meta estimator that fits a number of randomized decision trees (a.k.a. extra-trees) on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+
 # Author
 Sandy Graham
